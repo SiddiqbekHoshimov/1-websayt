@@ -9,22 +9,36 @@ body{
 
 nav{
     width: 80%;
-    height: 80px;
+    height: 50px;
+    margin: 0 auto;
     background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 ul{
     display: flex;
+    gap: 40px;
 }
 
 li{
-    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li:hover{
+    color: aqua;
 }
 
 a{
     background-color: blue;
     padding: 20px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }

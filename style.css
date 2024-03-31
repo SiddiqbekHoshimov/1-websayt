@@ -3,6 +3,10 @@ header{
     height: 500px;
 }
 
+body{
+    background-color: aqua;
+}
+
 nav{
     width: 80%;
     height: 80px;
